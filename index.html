@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div style="max-width: 100vw; overflow: hidden;">
+      <div class="mycontainer">
+        <div class="landing-page p-5 d-flex justify-content-end">
+            <div class="title mx-4">
+                <div>
+                    <h6>The Geographic News</h6>
+                </div>
+                <div class="title-bot d-flex flex-column">
+                    <h1>The News</h1>
+                    <h1>One and For All</h1>
+                    <p>Conservation is the key</p>
+                    <a href="#news"><button class="btn-title">Read More</button></a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="mb-5 container2 transition">
+            <h1 id="news" style="padding-top: 50px;">Newest News</h1>
+            <div class="mycarousel">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="gambar/landingpage2.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>First slide label</h5>
+                          <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="gambar/landingpage.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Second slide label</h5>
+                          <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="gambar/land4.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Third slide label</h5>
+                          <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="Category">
+      <h1 style="font-family: 'Playfair Display', serif;">News Category</h1>
+        <ul>
+            <li class="list active-list2" data-filter="all">All</li>
+            <li class="list" data-filter="Sea">Sea News</li>
+            <li class="list" data-filter="Land">Land News</li>
+            <li class="list" data-filter="Sky">Sky News</li>
+            <li class="list" data-filter="Forrest">Forrest News</li>
+        </ul>
+        <div class="news-list">
+            <div class="newsbox transition" data-item="Sea">
+              <img src="gambar/landingpage.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href=""><button class="btn-title">Read More</button></a>
+              </div>
+            </div>
+            <div class="newsbox transition" data-item="Forrest">
+              <img src="gambar/gambarnews/snake_forrest.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href=""><button class="btn-title">Read More</button></a>
+              </div>
+            </div>
+            <div class="newsbox transition" data-item="Sea">
+              <img src="gambar/land3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href=""><button class="btn-title">Read More</button></a>
+              </div>
+            </div>
+            <div class="newsbox transition" data-item="Forrest">
+              <img src="gambar/gambarnews/deer_forrest.jfif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href=""><button class="btn-title">Read More</button></a>
+              </div>
+            </div>
+            <div class="newsbox transition" data-item="Sea">
+              <img src="gambar/land4.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href=""><button class="btn-title">Read More</button></a>
+              </div>
+            </div>
+            <div class="newsbox transition" data-item="Land">
+              <img src="gambar/gambarnews/tiger_land.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href=""><button class="btn-title">Read More</button></a>
+              </div>
+            </div>
+            <div class="newsbox transition" data-item="Sky">
+              <img src="gambar/gambarnews/eagle_sky.avif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href=""><button class="btn-title">Read More</button></a>
+              </div>
+            </div>
+            <div class="newsbox transition" data-item="Forrest">
+              <img src="gambar/gambarnews/gorilla_forrest.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href=""><button class="btn-title">Read More</button></a>
+              </div>
+            </div>
+            <div class="newsbox transition" data-item="Sea">
+              <img src="gambar/gambarnews/seahorse_sea.jfif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href=""><button class="btn-title">Read More</button></a>
+              </div>
+            </div>
+            <div class="newsbox transition" data-item="Land">
+              <img src="gambar/gambarnews/girrafe_land.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href=""><button class="btn-title">Read More</button></a>
+              </div>
+            </div>
+            <div class="newsbox transition" data-item="Sky">
+              <img src="gambar/gambarnews/owl_sky.jfif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href=""><button class="btn-title">Read More</button></a>
+              </div>
+            </div>
+            <div class="newsbox transition" data-item="Sea">
+              <img src="gambar/landingpage2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href=""><button class="btn-title">Read More</button></a>
+              </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="lowongan">
+      <h3 style="z-index: 1; ">DISCOVER THE BEAUTY OF THE WORLD WITH US BY JOINING NATIONAL GEOGRAPHIC </h3>
+      <p style="z-index: 1;">Travel far and wide to the core of the world, Explore and protect the wild.</p>
+      <a href="https://rafi-sutrisno.github.io/Forms/" style="z-index: 1;">
+        <button class="btn-signr">Sign Up</button>
+      </a>
+    </div>
+
+
+    <div class="iklan">
+      <div class="row py-3">
+        <div class="col col-12 col-lg-6 d-flex flex-column gap-1">
+          <div class="zone px-2 py-2 d-flex justify-content-between">
+            <img src="gambar/iklan_2.jfif" alt="">
+            <p>Iklan Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam possimus non ullam. Ipsa dolor illo hic labore soluta consequatur natus, eaque molestiae at iste eum nemo expedita iure sint iusto!</p>
+            
+          </div>
+          <hr style="width: 100%;">
+          <div class="zone px-2 py-2 d-flex justify-content-between">
+            <img src="gambar/iklan_4.jpg" alt="">
+            <p>Iklan Lorem ipsum dolor sit amet, consectetur adipisicing elit. At voluptates, quaerat qui tempora maiores minima explicabo quisquam laboriosam consequuntur maxime repellendus tenetur natus! Neque, tempora illo beatae sapiente officia molestias.</p>
+          </div>
+        </div>
+        <div class="col col-12 col-lg-6 d-flex flex-column gap-1">
+          <div class="zone px-2 py-2 d-flex justify-content-between">
+            <img src="gambar/iklan_1.webp" alt="">
+            <p>Iklan Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto velit inventore porro soluta reprehenderit ratione voluptatem natus delectus mollitia aliquam a distinctio dolorem minus, veritatis dignissimos qui at voluptas ipsum.</p>
+          </div>
+          <hr style="width: 100%;">
+          <div class="zone px-2 py-2 d-flex justify-content-between">
+            <img src="gambar/iklan_3.jpg" alt="">
+            <p>Iklan Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis nesciunt nemo necessitatibus ad exercitationem rem quasi sapiente eveniet vel aspernatur tenetur repellendus nam delectus natus, sint, vero, voluptates qui minus?</p>
+          </div>
+        </div>
+
+        <div class="col col-12 col-lg-12">
+          <div class="zone px-2 py-2 d-flex gap-2">
+            <img src="gambar/iklan_5.jfif" alt="" style="width: 70%; height: auto;">
+            <img src="gambar/iklan_6.jpg" alt="" style="width: 30%; height: auto;">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <form action="" style="padding: 0 10%;" class="transition">
+      <h4 style="margin-bottom: 50px;">Masukkan Opini Anda</h4>
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon1">@</span>
+        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+      </div>
+
+      <div class="input-group mb-3">
+        <button type="button" class="btn btn-outline-secondary">Topik</button>
+        <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+          <span class="visually-hidden">Toggle Dropdown</span>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="">Alam</a></li>
+          <li><a class="dropdown-item" href="">Kelestarian</a></li>
+          <li><a class="dropdown-item" href="">Konservasi</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#">Lain lain</a></li>
+        </ul>
+        <input type="text" class="form-control" aria-label="Text input with segmented dropdown button">
+      </div>
+
+      <div class="input-group">
+        <span class="input-group-text">Opini anda</span>
+        <textarea class="form-control" aria-label="With textarea"></textarea>
+      </div>
+      <div style="display: flex; width: 100%; justify-content: center; margin-top: 15px;">
+        <button class="btnx" type="button" onclick="validateForm()">Submit</button>
+      </div>
+      
+
+    </form>
+    </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+      <script src="javascript.js"></script>
+</body>
+</html>
